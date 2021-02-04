@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 250px;
+    font-size: 65px;
+}
+
+.slot {
+    font-size: 65px;
+    margin-top: 430px;
+}
+
+body {
+    background-color: skyblue;
+}
+
+p {
+    font-size: 28px;
+}
+
+.line {
+    font-size: 40px;
+}
+
+img {
+    max-width: 25%;
+    display: block;
+    margin: 0px 0px 500px 0px;
+    animation-name: myanim;
+    animation-duration: 10s;
+    margin: 0;
+}
+
+@keyframes myanim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
